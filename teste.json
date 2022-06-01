@@ -1,0 +1,12 @@
+{
+    "name": "Luan",
+    "age": 23,
+    "liked": ["football", "formula1", "beer"],
+    "undergraduation": true,
+    "subjects": {
+        "Portuguese": 7,
+        "History": 8,
+        "Math": 9
+    } 
+
+}

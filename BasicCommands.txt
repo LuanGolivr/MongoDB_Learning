@@ -1,0 +1,6 @@
+Some basic commands
+
+use "dataBase Name"
+
+db.collectionName.insert({})
+db.collectionName.find()
