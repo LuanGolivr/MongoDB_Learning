@@ -2,5 +2,19 @@ Some basic commands
 
 use "dataBase Name"
 
-db.collectionName.insert({})
-db.collectionName.find()
+Basic CRUD commands:
+
+CREATE:
+    db.collectionName.insert({})
+    db.collectionName.insertOne({})
+    db.collectionName.insertMany([{}, {}])
+READ:
+    db.collectionName.find()
+    db.collectionName.findOne()
+UPDATE:
+    db.collectionName.update()
+    db.collectionName.updateOne()
+    db.collectionName.updateMany()
+DELETE:
+    db.collectionName.deleteOne()
+    db.collectionName.deleteMany()
