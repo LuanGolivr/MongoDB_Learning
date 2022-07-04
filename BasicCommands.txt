@@ -18,3 +18,18 @@ UPDATE:
 DELETE:
     db.collectionName.deleteOne()
     db.collectionName.deleteMany()
+
+
+
+Important command when you're doing queries:
+
+regex:
+    db.collection.find({name: /lua/}) -> In this case you gonna get every single object that name contains the following letters "lua"
+
+    db.collection.find({name: /^lua/}) -> Here you gonna get every single object that starting with these letters "lua"
+
+    db.collection.find({name: /lua$/}) -> Here you get every single object that ending with these letters "lua"
+
+    PS: "lua" is just an example , you can looking for whatever you want.
+
+    db.collection.find({/lua/i}) -> Here using this "i" you ignore the case sensitive , so using like this , you might get object with "lua" in lowerCase and upperCase
